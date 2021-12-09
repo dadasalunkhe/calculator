@@ -1,0 +1,37 @@
+body{
+  background-color:black;
+  text-align: center;
+}
+.name{
+font-family:" 'Bebas Neue', cursive;";
+font-size: 100px;
+color: white;
+}
+
+input{
+  color:#ffffff;
+  font-size:35px;
+  cursor:pointer;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  background-color:#2f3336;
+  border: 2px solid red;
+ border-radius: 20px;
+ text-shadow:1px 1px 2px black,0 0 25px aqua,0 0 5px blue;
+}
+.first,.second,.third,.fourth,.fifth {
+  margin-bottom: 20px;
+}
+input[type="text"]{
+  width: 250px;
+}
+input[type='button']:hover{
+  background-color: #FF69B4	;
+}
+.a{
+  background-color:#7CFC00;
+}
+.b{
+  background-color: orange;
+}
